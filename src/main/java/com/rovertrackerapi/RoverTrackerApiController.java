@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RestController
 public class RoverTrackerApiController {
 
+	@CrossOrigin
 	@RequestMapping("/")
 	public String index() {
 		return "Request successful.";
