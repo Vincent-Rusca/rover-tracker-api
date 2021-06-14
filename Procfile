@@ -1,1 +1,0 @@
-web: java -Dserver.port=$PORT -jar target/rover-tracker-api-1.0-SNAPSHOT.jar
