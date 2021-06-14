@@ -14,9 +14,6 @@
 	<packaging>war</packaging>
 	<name>rover-tracker-api</name>
 	<description>Mars Rover Tracker built using Spring Boot</description>
-	<properties>
-		<java.version>11</java.version>
-	</properties>
 	<dependencies>
 
 		<dependency>
