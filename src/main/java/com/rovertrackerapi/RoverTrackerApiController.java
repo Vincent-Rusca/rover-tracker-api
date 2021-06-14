@@ -20,7 +20,7 @@ public class RoverTrackerApiController {
 	public String index() {
 		return "Request successful.";
 	}
-	@CrossOrigin(origins = "https://rover-tracker-ui.herokuapp.com/")
+	@CrossOrigin
 	@RequestMapping("/MarsRoverTracker")
 	public ResponseEntity<Object> marsRoverTracker(@RequestParam(value = "date", defaultValue = "2021-6-6") String date) {
 		// Get raw data from NASA's API
